@@ -1,12 +1,7 @@
 
+This program makes matrices. It does that by the class Matrix the program is build on. Each matrix being build by the number of rows * number of columns the user put as an input, and also has a type the user input. Each matrix the user makes is initialized to be zeroes matrix at the start.The matrix type can be 1 of 3 types actually: "Arrowhead", "Toeplitz" or "any". Each one of the types is different, and has certain rules that the matrix has to handle. There are several methods which can be performed on the matrices, and they are programmed to check that every change which is being performed on the matrix does not break it's type. If a method break the matrix type, the program will not change the matrix by it. Those methods are basic methods which can be done on matrices, like shifting rows, shifting columns, sum matrices (the add method) etc.
 
-Matrix | ReadMe
 
-
-EX3:
-
-The program represents a mathematic matrix.
-there are  only 3 types of matrices that we deal with:  Arrowhead matrix, Toeplitz matrix and any matrix
 
 Arrowhead   :https://en.wikipedia.org/wiki/Arrowhead_matrix
 Toeplitz  : https://en.wikipedia.org/wiki/Toeplitz_matrix
@@ -49,8 +44,6 @@ void colShift(const int shiftSize)
 bool isA(string matType)		//returns true / false is this->_array is the entered matrix type
 void print()
 ~Matrix()				//destructor
-
-
 
 
 Input:
